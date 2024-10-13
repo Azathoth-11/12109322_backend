@@ -37,7 +37,25 @@ Make sure you have the following installed:
     DATABASE_URL=postgresql://username:password@localhost/dbname
     ```
 
+    
+
 ## Running the Server
 
 To run the FastAPI server:
-python main.py (from the root folder)
+```bash
+python main.py
+```
+
+
+## Running the test cases
+To run the test cases first run the server then run:
+```bash
+pytest test-endpoints.py
+```
+![testcases](https://github.com/user-attachments/assets/1bc53962-9926-4cfc-b9b3-84ff15154542)
+
+
+
+
+
+
