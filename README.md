@@ -43,7 +43,7 @@ Make sure you have the following installed:
 
 To run the FastAPI server:
 ```bash
-python3 main.py
+python main.py
 ```
 
 
